@@ -1,0 +1,726 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Sample · react-smart-component 文档</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="chenyiqin">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="../../" />
+    
+
+    
+        <link rel="shortcut icon" href='../../favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"react-smart-component/react-smart-component.github.io","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://react-smart-component.github.io" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="Sample.html">
+            
+                <a href="Sample.html">
+            
+                    
+                    Sample
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Sample</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#react-native-smart-button"><b>1. </b>react-native-smart-button</a></li><ul><li><span class="title-icon "></span><a href="#preview"><b>1.1. </b>Preview</a></li><li><span class="title-icon "></span><a href="#installation"><b>1.2. </b>Installation</a></li><li><span class="title-icon "></span><a href="#full-demo"><b>1.3. </b>Full Demo</a></li><li><span class="title-icon "></span><a href="#usage"><b>1.4. </b>Usage</a></li><li><span class="title-icon "></span><a href="#props"><b>1.5. </b>Props</a></li></ul></ul></div><a href="#react-native-smart-button" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="react-native-smart-button"><a name="react-native-smart-button" class="anchor-navigation-ex-anchor" href="#react-native-smart-button"><i class="fa fa-link" aria-hidden="true"></i></a>1. react-native-smart-button</h1>
+<p><a href="https://www.npmjs.com/package/react-native-smart-button" target="_blank"><img src="https://img.shields.io/npm/v/react-native-smart-button.svg" alt="npm"></a>
+<a href="https://www.npmjs.com/package/react-native-smart-button" target="_blank"><img src="https://img.shields.io/npm/dm/react-native-smart-button.svg" alt="npm"></a>
+<a href="https://www.npmjs.com/package/react-native-smart-button" target="_blank"><img src="https://img.shields.io/npm/dt/react-native-smart-button.svg" alt="npm"></a>
+<a href="https://github.com/react-native-component/react-native-smart-button/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/npm/l/react-native-smart-button.svg" alt="npm"></a></p>
+<p>A smart button for react-native apps, written in JS for cross-platform support.
+It works on iOS and Android.</p>
+<p>This component is compatible with React Native 0.25 and newer.</p>
+<p>Inspired by <a href="https://github.com/ide/react-native-button" target="_blank">react-native-button</a></p>
+<h2 id="preview"><a name="preview" class="anchor-navigation-ex-anchor" href="#preview"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. Preview</h2>
+<p><img src="http://cyqresig.github.io/img/react-native-smart-button-preview-ios-v1.3.0.gif" alt="react-native-smart-button-preview-ios">
+<img src="http://cyqresig.github.io/img/react-native-smart-button-preview-android-v1.3.0.gif" alt="react-native-smart-button-preview-android"></p>
+<h2 id="installation"><a name="installation" class="anchor-navigation-ex-anchor" href="#installation"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. Installation</h2>
+<pre class="language-"><code>npm install react-native-smart-button --save
+</code></pre><h2 id="full-demo"><a name="full-demo" class="anchor-navigation-ex-anchor" href="#full-demo"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. Full Demo</h2>
+<p>see <a href="https://github.com/cyqresig/ReactNativeComponentDemos" target="_blank">ReactNativeComponentDemos</a></p>
+<h2 id="usage"><a name="usage" class="anchor-navigation-ex-anchor" href="#usage"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. Usage</h2>
+<p>Install the package from npm with <code>npm install react-native-smart-button --save</code>.
+Then, require it from your app&apos;s JavaScript files with <code>import Button from &apos;react-native-smart-button&apos;</code>.</p>
+<p>If you need use badge button, Install the badge from npm with <code>npm install react-native-smart-badge --save</code>.
+Then, require it from your app&apos;s JavaScript files with <code>import Badge from &apos;react-native-smart-badge&apos;</code>.</p>
+<pre class="language-"><code class="lang-js"><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span>Component<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;react&apos;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span>
+    ScrollView<span class="token punctuation">,</span>
+    View<span class="token punctuation">,</span>
+    StyleSheet<span class="token punctuation">,</span>
+    Image<span class="token punctuation">,</span>
+    Text<span class="token punctuation">,</span>
+    ActivityIndicator<span class="token punctuation">,</span>
+    ActivityIndicatorIOS<span class="token punctuation">,</span>
+    ProgressBarAndroid<span class="token punctuation">,</span>
+    Platform<span class="token punctuation">,</span>
+<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;react-native&apos;</span>
+
+<span class="token keyword">import</span> TimerEnhance <span class="token keyword">from</span> <span class="token string">&apos;react-native-smart-timer-enhance&apos;</span>
+<span class="token keyword">import</span> Button <span class="token keyword">from</span> <span class="token string">&apos;react-native-smart-button&apos;</span>
+<span class="token keyword">import</span> image_liking <span class="token keyword">from</span> <span class="token string">&apos;../images/liking.png&apos;</span>
+<span class="token keyword">import</span> Badge <span class="token keyword">from</span> <span class="token string">&apos;react-native-smart-badge&apos;</span>
+
+<span class="token keyword">const</span> styles <span class="token operator">=</span> StyleSheet<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    buttonStyle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        margin<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+        height<span class="token punctuation">:</span> <span class="token number">40</span><span class="token punctuation">,</span>
+        backgroundColor<span class="token punctuation">:</span> <span class="token string">&apos;red&apos;</span><span class="token punctuation">,</span>
+        borderRadius<span class="token punctuation">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
+        borderWidth<span class="token punctuation">:</span> StyleSheet<span class="token punctuation">.</span>hairlineWidth<span class="token punctuation">,</span>
+        borderColor<span class="token punctuation">:</span> <span class="token string">&apos;red&apos;</span><span class="token punctuation">,</span>
+        justifyContent<span class="token punctuation">:</span> <span class="token string">&apos;center&apos;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    buttonTextStyle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        fontSize<span class="token punctuation">:</span> <span class="token number">17</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">&apos;white&apos;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    buttonDisabledStyle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        backgroundColor<span class="token punctuation">:</span> <span class="token string">&apos;#DDDDDD&apos;</span><span class="token punctuation">,</span>
+        borderWidth<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    buttonDisabledTextStyle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        color<span class="token punctuation">:</span> <span class="token string">&apos;#BCBCBC&apos;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">AllButton</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+
+    <span class="token comment" spellcheck="true">// &#x6784;&#x9020;</span>
+    constructor <span class="token punctuation">(</span>props<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">super</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span>
+        <span class="token comment" spellcheck="true">// &#x521D;&#x59CB;&#x72B6;&#x6001;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>state <span class="token operator">=</span> <span class="token punctuation">{</span>
+            btn_1_loading<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            btn_2_loading<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            btn_3_loading<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            btn_1_disabled<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            btn_2_disabled<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            btn_3_disabled<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    render <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">(</span>
+            <span class="token operator">&lt;</span>ScrollView style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>flex<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span> marginTop<span class="token punctuation">:</span> <span class="token number">20</span> <span class="token operator">+</span> <span class="token number">44</span><span class="token punctuation">,</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+
+                <span class="token operator">&lt;</span>Button
+                    disabled<span class="token operator">=</span><span class="token punctuation">{</span><span class="token boolean">true</span><span class="token punctuation">}</span>
+                    style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonStyle<span class="token punctuation">}</span>
+                    textStyle<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonTextStyle<span class="token punctuation">}</span>
+                    disabledStyle<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonDisabledStyle<span class="token punctuation">}</span>
+                    disabledTextStyle<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonDisabledTextStyle<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+                    disabled <span class="token punctuation">(</span>&#x6309;&#x94AE;&#x7981;&#x7528;<span class="token punctuation">)</span>
+                <span class="token operator">&lt;</span><span class="token operator">/</span>Button<span class="token operator">&gt;</span>
+
+                <span class="token operator">&lt;</span>Button
+                    style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonStyle<span class="token punctuation">}</span>
+                    textStyle<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonTextStyle<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+                    opacity all <span class="token punctuation">(</span>&#x6309;&#x94AE;&#x900F;&#x660E;<span class="token punctuation">)</span>
+                <span class="token operator">&lt;</span><span class="token operator">/</span>Button<span class="token operator">&gt;</span>
+
+                <span class="token operator">&lt;</span>Button
+                    touchableType<span class="token operator">=</span><span class="token punctuation">{</span>Button<span class="token punctuation">.</span>constants<span class="token punctuation">.</span>touchableTypes<span class="token punctuation">.</span>fadeContent<span class="token punctuation">}</span>
+                    style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonStyle<span class="token punctuation">}</span>
+                    textStyle<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonTextStyle<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+                    opacity content <span class="token punctuation">(</span>&#x5185;&#x5BB9;&#x900F;&#x660E;<span class="token punctuation">)</span>
+                <span class="token operator">&lt;</span><span class="token operator">/</span>Button<span class="token operator">&gt;</span>
+
+                <span class="token operator">&lt;</span>Button
+                    touchableType<span class="token operator">=</span><span class="token punctuation">{</span>Button<span class="token punctuation">.</span>constants<span class="token punctuation">.</span>touchableTypes<span class="token punctuation">.</span>highlight<span class="token punctuation">}</span>
+                    underlayColor<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">&apos;#C90000&apos;</span><span class="token punctuation">}</span>
+                    style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonStyle<span class="token punctuation">}</span>
+                    textStyle<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonTextStyle<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+                    highlight <span class="token punctuation">(</span>&#x80CC;&#x666F;&#x9AD8;&#x4EAE;<span class="token punctuation">)</span>
+                <span class="token operator">&lt;</span><span class="token operator">/</span>Button<span class="token operator">&gt;</span>
+
+                <span class="token operator">&lt;</span>Button
+                    touchableType<span class="token operator">=</span><span class="token punctuation">{</span>Button<span class="token punctuation">.</span>constants<span class="token punctuation">.</span>touchableTypes<span class="token punctuation">.</span>blur<span class="token punctuation">}</span>
+                    style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonStyle<span class="token punctuation">}</span>
+                    textStyle<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonTextStyle<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+                    blur <span class="token keyword">for</span> ios <span class="token punctuation">(</span>&#x6A21;&#x7CCA;&#x9634;&#x5F71;<span class="token punctuation">)</span>
+                <span class="token operator">&lt;</span><span class="token operator">/</span>Button<span class="token operator">&gt;</span>
+
+                <span class="token operator">&lt;</span>Button
+                    loading<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>btn_1_loading<span class="token punctuation">}</span>
+                    disabled<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>btn_1_disabled<span class="token punctuation">}</span>
+                    touchableType<span class="token operator">=</span><span class="token punctuation">{</span>Button<span class="token punctuation">.</span>constants<span class="token punctuation">.</span>touchableTypes<span class="token punctuation">.</span>fade<span class="token punctuation">}</span>
+                    style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonStyle<span class="token punctuation">}</span>
+                    textStyle<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonTextStyle<span class="token punctuation">}</span>
+                    renderLoadingComponent<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>_renderLoadingComponent_1<span class="token punctuation">}</span>
+                    onPress<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>_handlePress_1<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+                    loading <span class="token punctuation">(</span>&#x52A0;&#x8F7D;&#x5668;<span class="token punctuation">)</span>
+                <span class="token operator">&lt;</span><span class="token operator">/</span>Button<span class="token operator">&gt;</span>
+
+                <span class="token operator">&lt;</span>Button
+                    loading<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>btn_2_loading<span class="token punctuation">}</span>
+                    disabled<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>btn_2_disabled<span class="token punctuation">}</span>
+                    touchableType<span class="token operator">=</span><span class="token punctuation">{</span>Button<span class="token punctuation">.</span>constants<span class="token punctuation">.</span>touchableTypes<span class="token punctuation">.</span>fadeContent<span class="token punctuation">}</span>
+                    style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonStyle<span class="token punctuation">}</span>
+                    textStyle<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonTextStyle<span class="token punctuation">}</span>
+                    renderLoadingComponent<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>_renderLoadingComponent_2<span class="token punctuation">}</span>
+                    onPress<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>_handlePress_2<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+                    loading <span class="token punctuation">(</span>&#x52A0;&#x8F7D;&#x5668;<span class="token operator">+</span>&#x6587;&#x5B57;<span class="token punctuation">)</span>
+                <span class="token operator">&lt;</span><span class="token operator">/</span>Button<span class="token operator">&gt;</span>
+
+                <span class="token operator">&lt;</span>Button
+                    touchableType<span class="token operator">=</span><span class="token punctuation">{</span>Button<span class="token punctuation">.</span>constants<span class="token punctuation">.</span>touchableTypes<span class="token punctuation">.</span>highlight<span class="token punctuation">}</span>
+                    underlayColor<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">&apos;#C90000&apos;</span><span class="token punctuation">}</span>
+                    style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonStyle<span class="token punctuation">}</span>
+                    textStyle<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonTextStyle<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+                    <span class="token operator">&lt;</span>Image source<span class="token operator">=</span><span class="token punctuation">{</span>image_liking<span class="token punctuation">}</span> style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>width<span class="token punctuation">:</span> <span class="token number">40</span><span class="token punctuation">,</span> height<span class="token punctuation">:</span> <span class="token number">40</span><span class="token punctuation">,</span> marginRight<span class="token punctuation">:</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">/</span><span class="token operator">&gt;</span>
+                    icon <span class="token punctuation">(</span>&#x56FE;&#x6807;<span class="token punctuation">)</span>
+                <span class="token operator">&lt;</span><span class="token operator">/</span>Button<span class="token operator">&gt;</span>
+
+                <span class="token operator">&lt;</span>Button
+                    touchableType<span class="token operator">=</span><span class="token punctuation">{</span>Button<span class="token punctuation">.</span>constants<span class="token punctuation">.</span>touchableTypes<span class="token punctuation">.</span>blur<span class="token punctuation">}</span>
+                    style<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonStyle<span class="token punctuation">}</span>
+                    textStyle<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>buttonTextStyle<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+                    badge <span class="token punctuation">(</span>&#x5FBD;&#x7AE0;<span class="token punctuation">)</span>
+                    <span class="token operator">&lt;</span>Badge
+                        style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span> backgroundColor<span class="token punctuation">:</span> <span class="token string">&apos;#00AAEF&apos;</span><span class="token punctuation">,</span> marginLeft<span class="token punctuation">:</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token punctuation">}</span><span class="token punctuation">}</span>
+                        textStyle<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span> color<span class="token punctuation">:</span> <span class="token string">&apos;#fff&apos;</span><span class="token punctuation">,</span> fontSize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+                        <span class="token number">8</span>
+                    <span class="token operator">&lt;</span><span class="token operator">/</span>Badge<span class="token operator">&gt;</span>
+                <span class="token operator">&lt;</span><span class="token operator">/</span>Button<span class="token operator">&gt;</span>
+
+            <span class="token operator">&lt;</span><span class="token operator">/</span>ScrollView<span class="token operator">&gt;</span>
+        <span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    _handlePress_1 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            btn_1_loading<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            <span class="token comment" spellcheck="true">// btn_1_disabled: true,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                btn_1_loading<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+                <span class="token comment" spellcheck="true">// btn_1_disabled: false</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">3000</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    _handlePress_2 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            btn_2_loading<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            <span class="token comment" spellcheck="true">// btn_2_disabled: true,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                btn_2_loading<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+                <span class="token comment" spellcheck="true">// btn_2_disabled: false</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">3000</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    _renderLoadingComponent_1 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">_renderActivityIndicator</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    _renderLoadingComponent_2 <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">(</span>
+            <span class="token operator">&lt;</span>View style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>flexDirection<span class="token punctuation">:</span> <span class="token string">&apos;row&apos;</span><span class="token punctuation">,</span> alignItems<span class="token punctuation">:</span> <span class="token string">&apos;center&apos;</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+                <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">_renderActivityIndicator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">}</span>
+                <span class="token operator">&lt;</span>Text style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>
+                    fontSize<span class="token punctuation">:</span> <span class="token number">17</span><span class="token punctuation">,</span>
+                    color<span class="token punctuation">:</span> <span class="token string">&apos;white&apos;</span><span class="token punctuation">,</span>
+                    fontWeight<span class="token punctuation">:</span> <span class="token string">&apos;bold&apos;</span><span class="token punctuation">,</span>
+                    fontFamily<span class="token punctuation">:</span> <span class="token string">&apos;.HelveticaNeueInterface-MediumP4&apos;</span><span class="token punctuation">,</span>
+                <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>loading<span class="token operator">&lt;</span><span class="token operator">/</span>Text<span class="token operator">&gt;</span>
+            <span class="token operator">&lt;</span><span class="token operator">/</span>View<span class="token operator">&gt;</span>
+        <span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token function">_renderActivityIndicator</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> ActivityIndicator <span class="token operator">?</span> <span class="token punctuation">(</span>
+            <span class="token operator">&lt;</span>ActivityIndicator
+                style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>margin<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span><span class="token punctuation">}</span><span class="token punctuation">}</span>
+                animating<span class="token operator">=</span><span class="token punctuation">{</span><span class="token boolean">true</span><span class="token punctuation">}</span>
+                color<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">&apos;#fff&apos;</span><span class="token punctuation">}</span>
+                size<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">&apos;small&apos;</span><span class="token punctuation">}</span><span class="token operator">/</span><span class="token operator">&gt;</span>
+        <span class="token punctuation">)</span> <span class="token punctuation">:</span> Platform<span class="token punctuation">.</span>OS <span class="token operator">==</span> <span class="token string">&apos;android&apos;</span> <span class="token operator">?</span>
+            <span class="token punctuation">(</span>
+                <span class="token operator">&lt;</span>ProgressBarAndroid
+                    style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>margin<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span><span class="token punctuation">}</span><span class="token punctuation">}</span>
+                    color<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">&apos;#fff&apos;</span><span class="token punctuation">}</span>
+                    styleAttr<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">&apos;Small&apos;</span><span class="token punctuation">}</span><span class="token operator">/</span><span class="token operator">&gt;</span>
+
+            <span class="token punctuation">)</span> <span class="token punctuation">:</span>  <span class="token punctuation">(</span>
+            <span class="token operator">&lt;</span>ActivityIndicatorIOS
+                style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span>margin<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span><span class="token punctuation">}</span><span class="token punctuation">}</span>
+                animating<span class="token operator">=</span><span class="token punctuation">{</span><span class="token boolean">true</span><span class="token punctuation">}</span>
+                color<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">&apos;#fff&apos;</span><span class="token punctuation">}</span>
+                size<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">&apos;small&apos;</span><span class="token punctuation">}</span><span class="token operator">/</span><span class="token operator">&gt;</span>
+        <span class="token punctuation">)</span>
+
+
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">TimerEnhance</span><span class="token punctuation">(</span>AllButton<span class="token punctuation">)</span>
+</code></pre>
+<h2 id="props"><a name="props" class="anchor-navigation-ex-anchor" href="#props"><i class="fa fa-link" aria-hidden="true"></i></a>1.5. Props</h2>
+<table>
+<thead>
+<tr>
+<th>Prop</th>
+<th>Type</th>
+<th>Optional</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>touchableType</td>
+<td>string</td>
+<td>Yes</td>
+<td>constants.fade</td>
+<td>determines what kind of style of the button should be when touch is active.</td>
+</tr>
+<tr>
+<td>activeOpacity</td>
+<td>number</td>
+<td>Yes</td>
+<td>0.2</td>
+<td>see <a href="https://facebook.github.io/react-native/docs/touchablehighlight.html" target="_blank">react-native documents</a></td>
+</tr>
+<tr>
+<td>underlayColor</td>
+<td>color</td>
+<td>Yes</td>
+<td></td>
+<td>see <a href="https://facebook.github.io/react-native/docs/touchablehighlight.html" target="_blank">react-native documents</a></td>
+</tr>
+<tr>
+<td>style</td>
+<td>style</td>
+<td>Yes</td>
+<td></td>
+<td>see <a href="https://facebook.github.io/react-native/docs/style.html" target="_blank">react-native documents</a></td>
+</tr>
+<tr>
+<td>textStyle</td>
+<td>style</td>
+<td>Yes</td>
+<td></td>
+<td>see <a href="http://facebook.github.io/react-native/docs/text.html#style" target="_blank">react-native documents</a></td>
+</tr>
+<tr>
+<td>disabledStyle</td>
+<td>style</td>
+<td>Yes</td>
+<td></td>
+<td>see <a href="https://facebook.github.io/react-native/docs/style.html" target="_blank">react-native documents</a></td>
+</tr>
+<tr>
+<td>disabledTextStyle</td>
+<td>style</td>
+<td>Yes</td>
+<td></td>
+<td>see <a href="http://facebook.github.io/react-native/docs/text.html#style" target="_blank">react-native documents</a></td>
+</tr>
+<tr>
+<td>onPressIn</td>
+<td>func</td>
+<td>Yes</td>
+<td></td>
+<td>see <a href="https://facebook.github.io/react-native/docs/touchablewithoutfeedback.html#props" target="_blank">react-native documents</a></td>
+</tr>
+<tr>
+<td>onPressOut</td>
+<td>func</td>
+<td>Yes</td>
+<td></td>
+<td>see <a href="https://facebook.github.io/react-native/docs/touchablewithoutfeedback.html#props" target="_blank">react-native documents</a></td>
+</tr>
+<tr>
+<td>onPress</td>
+<td>func</td>
+<td>Yes</td>
+<td></td>
+<td>see <a href="https://facebook.github.io/react-native/docs/touchablewithoutfeedback.html#props" target="_blank">react-native documents</a></td>
+</tr>
+<tr>
+<td>onLayout</td>
+<td>func</td>
+<td>Yes</td>
+<td></td>
+<td>see <a href="https://facebook.github.io/react-native/docs/touchablewithoutfeedback.html#props" target="_blank">react-native documents</a></td>
+</tr>
+<tr>
+<td>disabled</td>
+<td>bool</td>
+<td>Yes</td>
+<td></td>
+<td>see <a href="https://facebook.github.io/react-native/docs/touchablewithoutfeedback.html#props" target="_blank">react-native documents</a></td>
+</tr>
+<tr>
+<td>loading</td>
+<td>bool</td>
+<td>Yes</td>
+<td>false</td>
+<td>determines the loading status of the button</td>
+</tr>
+<tr>
+<td>renderLoadingComponent</td>
+<td>func</td>
+<td>Yes</td>
+<td></td>
+<td>determines render function which return the presentation to replaces the content when loading status of the button is true</td>
+</tr>
+<tr>
+<td>shadowOpacity</td>
+<td>number</td>
+<td>Yes</td>
+<td>1</td>
+<td>see <a href="https://facebook.github.io/react-native/docs/shadowproptypesios.html" target="_blank">react-native documents</a></td>
+</tr>
+<tr>
+<td>shadowColor</td>
+<td>color</td>
+<td>Yes</td>
+<td>&apos;#fff&apos;</td>
+<td>see <a href="https://facebook.github.io/react-native/docs/shadowproptypesios.html" target="_blank">react-native documents</a></td>
+</tr>
+</tbody>
+</table>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; react-smart-component 2017 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2017-10-07 17:13:52
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../../" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Sample","level":"1.2","depth":1,"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-highlight","-livereload","search-plus","simple-page-toc","github","github-buttons","edit-link","disqus","prism","prism-themes","advanced-emoji","anchors","include-codeblock","ace","emphasize","katex","splitter","mermaid","tbfed-pagefooter","expandable-chapters-small","sectionx","donate","local-video","sitemap-general","anchor-navigation-ex","favicon","todo","livereload"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © react-smart-component 2017","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"disqus":{"useIdentifier":false,"shortName":"react-smart-component"},"emphasize":{},"ace":{},"github":{"url":"https://github.com/react-smart-component/react-smart-component.github.io"},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"todo":{},"splitter":{},"mermaid":{},"donate":{"alipay":"http://cyqresig.github.io/img/cyq_alipay.jpg","alipayText":"支付宝打赏","button":"打赏","title":"","wechat":"http://cyqresig.github.io/img/cyq_webchat_pay.jpg","wechatText":"微信打赏"},"sitemap-general":{"prefix":"https://react-smart-component.github.io"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{"tag":"b"},"anchor-navigation-ex":{"mode":"float","pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"isRewritePageTitle":false,"showLevel":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false}},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"prism-themes":{},"github-buttons":{"repo":"react-smart-component/react-smart-component.github.io","types":["star"],"size":"small"},"expandable-chapters-small":{},"local-video":{},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":true,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/react-smart-component/react-smart-component.github.io/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"search-plus":{}},"theme":"default","author":"chenyiqin","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"react-smart-component 文档","language":"zh-hans","output.name":"site","links":{"sidebar":{"Home":"https://react-smart-component.github.io"}},"gitbook":"3.2.2","description":"react-smart-component 基础组件使用介绍"},"file":{"path":"components/Sample/Sample.md","mtime":"2017-10-07T09:13:52.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-10-07T09:53:00.539Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
